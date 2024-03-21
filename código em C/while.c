@@ -1,8 +1,10 @@
+//dicas de usabilidade do while
+
+// o while é cria um loop
+
 #include <stdio.h>
 
-
 //contar de 1 até 10
-
 
 void contador(){
 

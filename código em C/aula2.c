@@ -46,11 +46,11 @@ int main(){
   
   printf("o nome \n"); 
   
-  scanf("%10s", &nome); //input do nome 1 com entrada de 10 caracteres
+  scanf("%s", &nome); //input do nome 1 com entrada de 10 caracteres
   
   printf("nome 2 \n"); 
   
-  scanf("%10s", &nome2); //input do nome 2 com entrada de 10 caracteres
+  scanf("%s", &nome2); //input do nome 2 com entrada de 10 caracteres
 
   printf("os nomes %2s \n %3s", nome, nome2);
 
