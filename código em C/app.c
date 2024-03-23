@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <string.h>
+
 
 //listador de nomes
 
@@ -11,8 +13,8 @@ int main(void) //chama a função login
 void login(){
 
 
-    char user[20];
-    int idade, senha;
+    char user[20], senha, senha2;
+    int idade;
 
     printf("digite seu nome ");
     scanf("%s", &user);
@@ -25,7 +27,23 @@ void login(){
     printf("digite uma senha ");
     scanf("%d", &senha);
 
-    
+    printf("digite novamente a sua senha ");
+    scanf("%d", &senha2);
+
+    //falta colocar um tamanho de minino para senha
+
+    if (strcmp(senha, senha2) == 0){
+
+        printf("Senha registrada com sucesso");
+
+        chamar();
+
+    }else{
+
+        printf("senha incorreta");
+
+    }
+
 
 }
 
