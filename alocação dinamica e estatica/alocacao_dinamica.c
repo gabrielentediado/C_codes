@@ -1,7 +1,8 @@
-#//alocção dinamica e estática
+//alocção dinamica e estática
+
 #include <stdlib.h>
 #include <stdlib.h>
-//,malloc, free
+//calooc ,malloc, free
 
 void imprimir(int *vetor, int tamanho){
 
@@ -40,7 +41,8 @@ void dinamica(){
 
     for (int i = 0; i < tamanho; i++)
     {
-        
+        printf("digite o %d valor", i+1);
+        scanf("%d", vetor_dinamico[i]);
     }
     
 
